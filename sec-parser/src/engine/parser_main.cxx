@@ -20,7 +20,7 @@ void process_xbrl(const std::string& xbrl_data) {
     
     // Register SEC Taxonomy Namespaces
     xmlXPathRegisterNs(xpathCtx, (const xmlChar*)"us-gaap", 
-                       (const xmlChar*)"http://fasb.org/us-gaap/2023");
+                       (const xmlChar*)"http://fasb.org/us-gaap/");
     
     // Extract a specific financial fact
     xmlXPathObjectPtr result = xmlXPathEvalExpression(
