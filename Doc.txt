@@ -1,0 +1,13 @@
+src/
+│   ├── preprocessor/       # Python: SGML to Well-formed XML
+│   │   ├── sgml_cleaner.py
+│   │   └── templates/      # Jinja2 (jij3) templates
+│   ├── engine/             # C++: High-speed XML/XBRL parsing
+│   │   ├── parser_main.cpp
+│   │   └── xbrl_mapper.cpp
+│   └── utils/              # Shared schemas and taxonomies
+├── include/                # Headers for pugixml & libxml2
+├── build/                  # CMake build artifacts
+├── tests/                  # Sample .sgm and .xbrl files
+├── CMakeLists.txt          # Build configuration
+└── requirements.txt        # Python dependencies (jinja2, etc.)
