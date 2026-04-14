@@ -1,1 +1,2 @@
 <PackageVersion Include="pugixml" Version="1.15.0" />
+<PackageReference Include="pugixml" />
